@@ -545,8 +545,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
     )
     p.add_argument(
         "--user-agents",
-        p.add_argument(
-        "--user-agents",
         default=str(DEFAULT_USER_AGENTS_FILE),
         metavar="FILE",
         help="File of User-Agent strings (one per line)",
@@ -570,7 +568,6 @@ def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
         args.proxy_file = None
 
     return args
-
 
 def main(argv: list[str] | None = None) -> None:
     args = parse_args(argv)
