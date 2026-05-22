@@ -20,7 +20,7 @@ from urllib.parse import ParseResult, urlparse
 import socks
 
 attemps = 0
-os.system('clear')
+os.system("clear")
 print("""
 \033[37m
 ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
