@@ -33,9 +33,9 @@ print("""
 \033[95m│     ╭─╮    │\033[36m ╰───╯   │\033[33m  ╰───╯   │\033[38;5;220m   │\033[38;5;242m  ╰───╯   │
 \033[95m╰─────╯ ╰────╯\033[36m─────────╯\033[33m──────────╯\033[38;5;220m───╯\033[38;5;242m───────╯""")
 print(f"\033[97m╔{'═' * 71}╗")
-print(f"\033[97m║\033[104m{' ' * 21}SCRIPT KHUSUS ATTACK ZI0NIST{' ' * 21}\033[0m║")
-print(f"\033[97m║\033[104m{' ' * 19}TIDAK UNTUK WEBSITE PEMERINTAH {' ' * 19}\033[0m║")
-print(f"\033[97m║\033[104m{' ' * 28}_BISI DORAKA MOYANG_{' ' * 28}\033[0m║")
+print(f"\033[97m║\033[91m{' ' * 22}SCRIPT KHUSUS ATTACK ZI0NIST{' ' * 21}\033[0m║")
+print(f"\033[97m║\033[91m{' ' * 21}TIDAK UNTUK WEBSITE PEMERINTAH {' ' * 19}\033[0m║")
+print(f"\033[97m║\033[91m{' ' * 25}_BISI DORAKA MOYANG_{' ' * 27}\033[0m║")
 print(f"\033[97m╚{'═' * 71}╝")
 while attemps < 100:
     print("\033[38;5;6m┏━━KunFayz━━⬣")
