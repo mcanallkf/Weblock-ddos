@@ -67,9 +67,9 @@ logger = logging.getLogger(__name__)
 
 DEFAULT_USER_AGENTS_FILE = Path("default/useragents.txt")
 DEFAULT_ACCEPT_HEADERS: list[str] = [
-    "\033[38;5;220mtext/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "application/json, text/javascript, */*; q=0.01",
-    "\033[38;5;39mtext/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
     "application/xml,application/json,text/html;q=0.9, text/plain;q=0.8,image/png,*/*;q=0.5",
 ]
 
@@ -458,8 +458,8 @@ class ThreadedFlooder:
             mbps = mb * 8 / elapsed_total if elapsed_total > 0 else 0.0
 
             logger.info(
-                "Stats: t=%.1fs | req=%d | ok=%d (%.1f%%) | err=%d (%.1f%%) [conn=%d] "
-                "| rps=%.1f (avg %.1f) | sent=%.2f MB (%.2f Mbps)",
+                "\033[38;5;220mStats: t=%.1fs | req=%d | ok=%d (%.1f%%) | err=%d (%.1f%%) [conn=%d] "
+                "\033[38;5;39m| rps=%.1f (avg %.1f) | sent=%.2f MB (%.2f Mbps)",
                 elapsed_total, s.requests, s.successes, ok_pct,
                 s.errors, err_pct, s.conn_errors,
                 rps_now, rps_avg, mb, mbps,
