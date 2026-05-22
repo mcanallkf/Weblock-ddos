@@ -23,7 +23,7 @@ attemps = 0
 os.system("clear")
 print("""
 \033[37m
-▒▒▒▒—""")
+╭──╮───────────────╮""")
 print(f"\033[97m╔{'═' * 71}╗")
 print(f"\033[97m║\033[104m{' ' * 21}Don't attack government sites{' ' * 21}\033[0m║")
 print(f"\033[97m║\033[104m{' ' * 20}Just to fight to help Palestine{' ' * 20}\033[0m║")
