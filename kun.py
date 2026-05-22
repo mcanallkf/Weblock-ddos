@@ -41,7 +41,7 @@ while attemps < 100:
     username = input("\033[38;5;6m┗> Enter Username: \033[30m")
     password = input("\033[38;5;6m┗> Enter password: \033[30m")
 
-    if username == 'fuck zion' and password == 'free palestine':
+    if username == 'zogir' and password == 'zogir':
         print("\033[100m \033[31m••> BURNING WEBS 210πiS \033[0m")
         break
     else:
