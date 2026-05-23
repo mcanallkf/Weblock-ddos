@@ -429,7 +429,7 @@ class ThreadedFlooder:
                 sock.close()
 
     # ------------------------------------------------------------------
-    def _stats_report(self) -> None:
+    def _stats_reporter(self) -> None:
         cfg = self.cfg
         logger.info("Stats report started.")
         last_count = 0
