@@ -429,9 +429,9 @@ class ThreadedFlooder:
                 sock.close()
 
     # ------------------------------------------------------------------
-    def _stats_reporter(self) -> None:
+    def _stats_report(self) -> None:
         cfg = self.cfg
-        logger.info("Stats reporter started.")
+        logger.info("Stats report started.")
         last_count = 0
         last_time = self._start_time
 
@@ -458,7 +458,7 @@ class ThreadedFlooder:
             mbps = mb * 8 / elapsed_total if elapsed_total > 0 else 0.0
 
             logger.info(
-                "Stats: t=%.1fs \033[38;5;220m| req=%d | ok=%d (%.1f%%) | err=%d (%.1f%%) [conn=%d] "
+                "Stats: t=%.1fs \033[38;5;220m| req=%d | ok=%d (%.1f%%) \033[37m| err=%d (%.1f%%) [conn=%d] "
                 "\033[38;5;39m| rps=%.1f (avg %.1f) | sent=%.2f MB (%.2f Mbps)",
                 elapsed_total, s.requests, s.successes, ok_pct,
                 s.errors, err_pct, s.conn_errors,
