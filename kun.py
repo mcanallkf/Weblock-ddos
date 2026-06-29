@@ -16,8 +16,11 @@ from dataclasses import dataclass
 from pathlib import Path
 from typing import NamedTuple
 from urllib.parse import ParseResult, urlparse
-
 import socks
+
+os.system("clear")
+print("033\33mHanya digunakan untuk attack zionis
+
 
 attemps = 0
 os.system("clear")
