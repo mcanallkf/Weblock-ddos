@@ -20,7 +20,7 @@ import socks
 
 os.system("clear")
 time.sleep(3)
-print("033\37m••••••••")
+print("\033[37m••••••••")
 time.sleep(3)
 print("https://github.com/mcanallkf/Weblock-ddos")
 time.sleep(3)
