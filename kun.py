@@ -19,8 +19,8 @@ from urllib.parse import ParseResult, urlparse
 import socks
 
 os.system("clear")
-os.system("https://github.com/Kodekeras24")
-print("\033[37mWelcome to Zona Blackphanter\033[0m")
+os.system("https://github.com/mcanallkf/Weblock-ddos")
+print("\033[37mHANYA UNTUK ATTACK WEBS ZIONIST")
 time.sleep(5)
 print("Loading...
 
