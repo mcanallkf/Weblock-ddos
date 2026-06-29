@@ -19,8 +19,10 @@ from urllib.parse import ParseResult, urlparse
 import socks
 
 os.system("clear")
-print("033\33mHanya digunakan untuk attack zionis
-
+os.system("https://github.com/Kodekeras24")
+print("\033[37mWelcome to Zona Blackphanter\033[0m")
+time.sleep(5)
+print("Loading...
 
 attemps = 0
 os.system("clear")
