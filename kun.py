@@ -22,7 +22,7 @@ os.system("clear")
 os.system("https://github.com/mcanallkf/Weblock-ddos")
 print("\033[37mHANYA UNTUK ATTACK WEBS ZIONIST")
 time.sleep(5)
-print("Loading...
+print("Loading...")
 
 attemps = 0
 os.system("clear")
