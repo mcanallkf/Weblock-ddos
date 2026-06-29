@@ -19,6 +19,9 @@ from urllib.parse import ParseResult, urlparse
 import socks
 
 os.system("clear")
+time.sleep(3)
+print("033\37m••••••••")
+time.sleep(3)
 os.system("https://github.com/mcanallkf/Weblock-ddos")
 print("\033[37mHANYA UNTUK ATTACK WEBS ZIONIST")
 time.sleep(5)
@@ -40,7 +43,7 @@ print("""
 
 while attemps < 100:
     print("\033[38;5;6m┏━━KunFayz━━⬣")
-    username = input("\033[38;5;6m┗> Enter Username: \033[30m")
+    username = input("\033[38;5;6m┗> Enter Username: \033[33m")
     password = input("\033[38;5;6m┗> Enter password: \033[30m")
 
     if username == 'blackarmy' and password == 'agent':
